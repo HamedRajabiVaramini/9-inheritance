@@ -10,6 +10,10 @@ class Book:
         self.genre = genre
 
     def __str__(self):
-        return f"Book(Title:{self.title}, Author:{self.author}, Genre:{self.genre})"
+        return f"Book(Title:{self.title}, " + \
+            "Author:{self.author}, " + \
+            "Genre:{self.genre})"
+
+
 
         
